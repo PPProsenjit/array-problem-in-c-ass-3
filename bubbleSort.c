@@ -1,5 +1,5 @@
 #include <stdio.h>
-//swap algoritham 
+//swap algorithm 
 int swap(int* arr, int i, int j)
 {
     int temp = arr[i];
@@ -14,7 +14,7 @@ int bubbleSort(int arr[], int n){
      for(int j = 0; j < n - i - 1; j++){
          //compare left to right which one is greater than
          if(arr[j] > arr[j + 1]){
-             //calll swap algoritham
+             //call swap algorithm
              swap(arr, j, j + 1);
          }
      }
