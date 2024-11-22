@@ -63,7 +63,13 @@ int main(){
     int arr[] = {5, 12, 11, 19, 13, 6, 7};
     //Find the size of array 
     int n = sizeof(arr)/sizeof(arr[0]);
-    
+    //print unsorted array 
+    printf("Original array:\n");
+    for(int i = 0; i < n; i++){
+        printf("%d ",arr[i]);
+    }
+    printf("\n");
+    //call function for merge 
     mergeSort(arr, 0, n - 1);
     printf("marge array are \n");
     for (int i; i < n; i++){
