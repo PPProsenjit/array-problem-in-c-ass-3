@@ -1,4 +1,4 @@
-// Online C compiler to run C program online
+
 #include <stdio.h>
 #include <stdlib.h>
 // define means public use 
@@ -13,10 +13,10 @@ void multiplyMatrix(int m1[][col1],int m2[][col2]){
     
     printf("Result Matrix is: \n");
     
-    //found row and selec
+    //found row and selected
     for(int i = 0; i < row1; i++ ){
         
-        //found how many colum
+        //found how many columns
         for(int j = 0; j < col2; j++){
             
             result[i][j] = 0;

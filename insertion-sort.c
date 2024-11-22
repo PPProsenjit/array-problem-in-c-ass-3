@@ -5,14 +5,14 @@ int insertionSort(int arr[], int size){
         for(int i = 1; i < size ; i++){
          int key = arr[i];
          int j = i - 1;
-         //j is first value and key is second valu 
+         //j is first value and key is second value 
          // if grater than key to one position to 
          //the right of their current position
          while(j >= 0 && arr[j] > key){
              arr[j + 1] = arr[j];
              j = j - 1;
          }
-         //move key to the current porisition
+         //move key to the current position
          arr[j + 1] = key;
         }
        

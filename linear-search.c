@@ -3,7 +3,7 @@
 int linearSearch(int arr[], int size, int key){
     //loop for checking 
       for(int i = 0; i < size; i++){
-          //if key is eaula than return index number
+          //if key is equal than return index number
           if(arr[i] == key){
               return i;
           }

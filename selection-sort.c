@@ -5,7 +5,7 @@ int swap(int* arr ,int min,int i ){
     arr[i] = temp;
 }
 int selectionSort(int arr[], int size){
-        // Start with the whole array as unsored and one by
+        // Start with the whole array as unsorted and one by
       // one move boundary of unsorted subarray towards right
         for(int i = 0; i < size - 1; i++){
             // Find the minimum element in unsorted array
